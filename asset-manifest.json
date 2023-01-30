@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/phantom-take-home/static/css/main.99c6909d.css",
+    "main.js": "/phantom-take-home/static/js/main.b7dc1700.js",
+    "static/js/787.cc7eeea2.chunk.js": "/phantom-take-home/static/js/787.cc7eeea2.chunk.js",
+    "index.html": "/phantom-take-home/index.html",
+    "main.99c6909d.css.map": "/phantom-take-home/static/css/main.99c6909d.css.map",
+    "main.b7dc1700.js.map": "/phantom-take-home/static/js/main.b7dc1700.js.map",
+    "787.cc7eeea2.chunk.js.map": "/phantom-take-home/static/js/787.cc7eeea2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99c6909d.css",
+    "static/js/main.b7dc1700.js"
+  ]
+}
