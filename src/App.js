@@ -27,7 +27,6 @@ function App() {
     { id: 22, link: "https://www.twitter.com" },
     { id: 23, link: "https://www.facebook.com" },
     { id: 24, link: "https://www.yahoo.com" },
-    { id: 25, link: "https://www.microsoft.com" },
   ]); //all bookmarks
   const [shownLinks, setShownLinks] = useState([]); //bookmarks that should be shown on the current page number
   const [showPagination, setShowPagination] = useState(false); //show pagination or not
