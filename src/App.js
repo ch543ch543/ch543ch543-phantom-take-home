@@ -62,15 +62,15 @@ function App() {
 
   const deleteLink = (e) => {
     e.stopPropagation()
+    e.target.parentNode.parentNode.classList.add('hide')
+    e.target.parentNode.parentNode.parentNode.classList.add('hide')
     const currentLinks = [...links]
     const deleteIdx = currentLinks.findIndex((bookmark) => bookmark.id == e.target.id) // find the deleting bookmark
-    document.querySelectorAll('.book-mark-background')[deleteIdx].classList.add('hide')
-    document.querySelectorAll('.book-mark')[deleteIdx].classList.add('hide')
     currentLinks.splice(deleteIdx, 1)
     setTimeout(() => {
       //remove the bookmark on UI and reset bookmarks' array
-      document.querySelectorAll('.book-mark-background')[deleteIdx].classList.remove('hide')
-      document.querySelectorAll('.book-mark')[deleteIdx].classList.remove('hide')
+      e.target.parentNode.parentNode.classList.remove('hide')
+      e.target.parentNode.parentNode.parentNode.classList.remove('hide')
       setLinks(currentLinks)
     }, 1000)
   }
